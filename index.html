@@ -41,18 +41,18 @@
 
 <body class="font-manrope">
    <header class="container mx-auto">
-      <div class="hero">
-         <div class="hero-content flex-col lg:flex-row">
+      <div class="my-24">
+         <div class="flex justify-between items-center flex-col lg:flex-row">
             <div>
                <h1 class="text-7xl font-extrabold">
                   It's good <br>
                   tea time at The <br>
                   Tea House</h1>
                <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-               <button class="btn btn-primary">Explore More</button>
+               <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00]">Explore More</button>
             </div>
             <div>
-               <img src="./images/banner.png" class="max-w-sm" />
+               <img src="./images/banner.png"/>
 
                <!-- Rating badge -->
                <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60 rounded-xl">
@@ -249,39 +249,54 @@
 
    </main>
 
-   <footer class="footer p-10 bg-base-200 text-base-content">
-      <nav>
-        <header class="footer-title">Services</header> 
-        <a class="link link-hover">Branding</a>
-        <a class="link link-hover">Design</a>
-        <a class="link link-hover">Marketing</a>
-        <a class="link link-hover">Advertisement</a>
-      </nav> 
-      <nav>
-        <header class="footer-title">Company</header> 
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Contact</a>
-        <a class="link link-hover">Jobs</a>
-        <a class="link link-hover">Press kit</a>
-      </nav> 
-      <nav>
-        <header class="footer-title">Legal</header> 
-        <a class="link link-hover">Terms of use</a>
-        <a class="link link-hover">Privacy policy</a>
-        <a class="link link-hover">Cookie policy</a>
-      </nav> 
-      <form>
-        <header class="footer-title">Newsletter</header> 
-        <fieldset class="form-control w-80">
-          <label class="label">
-            <span class="label-text">Enter your email address</span>
-          </label> 
-          <div class="join">
-            <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
-            <button class="btn btn-primary join-item">Subscribe</button>
+   <footer class="px-48 py-10 bg-gradient-to-r from-[#F00] to-[#FF8938] text-base-content">
+      <div class="flex justify-between my-24">
+         <img src="./images/cup.png" alt="">
+         <p>
+            <span>Ready to get started?</span>
+            <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] ml-12">Get Started</button>
+         </p>
+         
+      </div>
+      <div class="footer">
+         <div>
+            <span class="footer-title">Services</span> 
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+          </div> 
+          <div>
+            <span class="footer-title">Company</span> 
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </div> 
+          <div>
+            <span class="footer-title">Legal</span> 
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </div> 
+          <div>
+            <span class="footer-title">Newsletter</span> 
+            <div class="form-control w-80">
+              <label class="label">
+                <span class="label-text">Enter your email address</span>
+              </label> 
+              <div class="relative">
+                <input type="text" placeholder="username@site.com" class="py-5 bg-transparent border-b-2 border-black outline-none" /> 
+                <button class="btn text-white rounded-full bg-gradient-to-r from-[#FF8938] to-[#F00]"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
           </div>
-        </fieldset>
-      </form>
+      </div>
+
+      <div class="mt-10 text-center">
+            <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+      </div>
+
     </footer>
 </body>
 
